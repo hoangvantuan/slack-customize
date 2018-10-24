@@ -4073,3 +4073,7 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .tab_complete_ui_item > .emoji-sizer {
     font-size: 64px !important;
 }
+                              
+.c-reaction > .emoji-sizer {
+   font-size: 32px !important;
+}
