@@ -142,11 +142,11 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 #loading_message #loading_message_attribution { color: #949494; }
 
-#loading_team_menu_bg, #loading_user_menu_bg { background: #303E4D; border: none; }
+#loading__bg, #loading_user_menu_bg { background: #303E4D; border: none; }
 
 .infinite_spinner_bg, .infinite_spinner_blue { stroke: #e6e6e6; }
 
-body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #363636; }
+body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #303E4D; }
 
 .p-degraded_list__loading { background-color: #303E4D; color: #e6e6e6; }
 
@@ -674,9 +674,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .tab_complete_ui .not_in_channel { color: #949494; }
 
-#team_menu { background: #363636; border-bottom: 2px solid #363636; color: #e6e6e6; }
+#team_menu { background: #303E4D; border-bottom: 2px solid #303E4D; color: #303E4D; }
 
-#team_menu.active, #team_menu:hover { background: #363636 !important; border-bottom-color: #363636 !important; }
+#team_menu.active, #team_menu:hover { background:#303E4D !important; border-bottom-color: #303E4D !important; }
 
 #team_menu.active i, #team_menu:hover i { color: #e6e6e6; }
 
