@@ -1257,7 +1257,7 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .delete_attachment_link:hover { color: #c7c7c7; }
 
-.file_container, .c-file_container { background: #000; border: 1px solid #303E4D; color: #e6e6e6; }
+.file_container, .c-file_container { background: #04c938 ; border: 1px solid #303E4D; color: #e6e6e6; }
 
 .file_container:hover, .file_container:focus, .file_container.file_menu_open, .c-file_container:hover, .c-file_container:focus, .c-file_container.file_menu_open { border-bottom-color: #303E4D; border-left-color: #303E4D; border-right-color: #303E4D; }
 
@@ -4076,4 +4076,4 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
                               
 .c-reaction > .emoji-sizer {
    font-size: 32px !important;
-}
+}v
