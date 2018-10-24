@@ -4064,3 +4064,12 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .para_menu a.trigger.pilcrow { filter: grayscale(2) brightness(1.8); }
 
 .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); }
+
+/* customize emoji size*/
+.c-message__body > .emoji-sizer {
+    font-size: 84px !important;
+}
+
+.tab_complete_ui_item > .emoji-sizer {
+    font-size: 64px !important;
+}
